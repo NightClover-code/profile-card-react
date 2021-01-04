@@ -1,0 +1,11 @@
+.attribution {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  a {
+    color: $very-dark-desaturated-blue;
+    cursor: pointer;
+    z-index: 100;
+  }
+}

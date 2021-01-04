@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import './variables';
+@import './card';
+@import './attribution';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app__container {
+  overflow: hidden;
+  position: relative;
+  background: $dark-cyan;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  .background__top {
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+  }
+  .background__bottom {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+  }
+}

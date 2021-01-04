@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+.card__container {
+  min-width: 280px;
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  padding-top: 12vh;
+  position: relative;
+}
+
+.card__container .card {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  height: 420px;
+  background-color: #fff;
+  z-index: 10;
+  border-radius: 15px;
+  width: 100%;
+  -webkit-box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card__container .card .top__image img {
+  width: 100%;
+}
+
+.card__container .card .profile__main {
+  position: relative;
+}
+
+.card__container .card .profile__main .avatar__container {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  place-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  padding-top: 5px;
+}
+
+.card__container .card .profile__main .avatar__container .avatar {
+  width: 90%;
+}
+
+.card__container .card .profile__main .avatar__container .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card__container .card .profile__main .profile__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.card__container .card .profile__main .profile__information .profile__identity {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin-top: 75px;
+}
+
+.card__container .card .profile__main .profile__information .profile__identity .username {
+  color: #2d3248;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.card__container .card .profile__main .profile__information .profile__identity .age {
+  font-size: 24px;
+  color: #6a6f81;
+  line-height: 1.4;
+}
+
+.card__container .card .profile__main .profile__information .location {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #6a6f81;
+}
+
+.card__container .card .profile__details {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
+.card__container .card .profile__details .profile__details__list {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.card__container .card .profile__details .profile__details__list li {
+  list-style: none;
+}
+
+.card__container .card .profile__details .profile__details__list li .number {
+  text-align: center;
+  font-weight: 700;
+  color: #2d3248;
+  font-size: 20px;
+}
+
+.card__container .card .profile__details .profile__details__list li .text {
+  font-size: 13px;
+  text-align: center;
+  padding: 10px 0;
+  letter-spacing: 2px;
+  color: #6a6f81;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.attribution a {
+  color: #2d3248;
+  cursor: pointer;
+  z-index: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app__container {
+  overflow: hidden;
+  position: relative;
+  background: #19a2ae;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.app__container .background__top {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+}
+
+.app__container .background__bottom {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+/*# sourceMappingURL=app.css.map */
