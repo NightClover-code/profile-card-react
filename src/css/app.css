@@ -4,8 +4,8 @@
   max-width: 400px;
   width: 90%;
   margin: auto;
-  padding-top: 12vh;
   position: relative;
+  padding-top: 50px;
 }
 
 .card__container .card {
@@ -142,7 +142,7 @@
 
 .attribution {
   position: absolute;
-  bottom: 25px;
+  bottom: 150px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -162,10 +162,10 @@
 }
 
 .app__container {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
   background: #19a2ae;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   margin: auto;
   font-size: 18px;
