@@ -9,6 +9,7 @@
 
 .card__container .card {
   margin-top: calc(20% + 10vw);
+  margin-bottom: 30px;
   height: 420px;
   background-color: #fff;
   z-index: 10;
@@ -142,12 +143,12 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  z-index: 100;
 }
 
 .attribution a {
   color: #2d3248;
   cursor: pointer;
-  z-index: 100;
 }
 
 * {
@@ -165,7 +166,7 @@
   width: 100%;
   margin: auto;
   font-size: 18px;
-  z-index: -2;
+  z-index: 0;
   font-family: 'Kumbh Sans', sans-serif;
 }
 
