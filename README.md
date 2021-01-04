@@ -1,4 +1,4 @@
 # Front end mentor - Profile Card Challenge
 
-[](./public/design/images/preview.png)
+[](./public/images/preview.png)
 
