@@ -1,14 +1,11 @@
 .card__container {
-  min-width: 280px;
+  min-width: 250px;
   max-width: 400px;
   width: 90%;
   margin: auto;
   position: relative;
-  padding-top: 50px;
   .card {
-    position: absolute;
-    top: 50%;
-    transform: translateY(+50%);
+    margin-top: calc(20% + 10vw);
     height: 420px;
     background-color: #fff;
     z-index: 10;

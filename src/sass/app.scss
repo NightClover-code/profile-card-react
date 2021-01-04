@@ -11,10 +11,11 @@
   position: relative;
   overflow: hidden;
   background: $dark-cyan;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   margin: auto;
   font-size: 18px;
+  z-index: -2;
   font-family: 'Kumbh Sans', sans-serif;
   .background__top {
     position: absolute;
@@ -25,5 +26,6 @@
     position: absolute;
     left: 50%;
     top: 40%;
+    z-index: -1;
   }
 }
